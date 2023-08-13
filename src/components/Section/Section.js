@@ -1,7 +1,7 @@
 export const Section = ({ title, children }) => {
   return (
     <>
-      <h2>{title}</h2>
+      <h1>{title}</h1>
       {children}
     </>
   );
